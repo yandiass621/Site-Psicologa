@@ -163,6 +163,25 @@ section {
 
 .contact a{
     color: var(--text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact p img{
+    width: 50px;
+    margin: 10px;
+}
+
+.contact h2{
+    margin-bottom: 5px;
 }
 
 footer {
