@@ -51,10 +51,18 @@ header img {
     width: 80px;
 }
 
+header a{
+    text-decoration: none;
+}
+
 header h1 {
     margin-right: auto;
     font-size: 20px;
     color: var(--secondary);
+}
+
+header a h1{
+    margin-right: 18em;
 }
 
 nav a {
@@ -175,13 +183,39 @@ section {
     flex-wrap: wrap;
 }
 
-.contact p img{
+.contact h2{
+    margin-bottom: 5px;
+}
+
+#enderecos img{
+    width: 30px;
+    margin: 10px;
+}
+
+#redes-sociais img{
     width: 50px;
     margin: 10px;
 }
 
-.contact h2{
-    margin-bottom: 5px;
+#redes-sociais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    flex-direction: column;
+}
+
+#redes-sociais a{
+    text-decoration: none;
+}
+
+#redes-sociais h2{
+    margin-top: 20px;
+}
+
+#redes-sociais button{
+    margin-top: 10px;
+    margin-left: 2em;
 }
 
 footer {
